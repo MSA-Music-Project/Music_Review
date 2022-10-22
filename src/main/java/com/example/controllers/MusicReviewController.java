@@ -72,7 +72,7 @@ public class MusicReviewController {
 		
 		//String url = "http://localhost:7049/api/editor";
 		
-		URI uri = URI.create("http://localhost:9000/employee/editor");
+		URI uri = URI.create("http://gateway:9000/employee/editor");
 		
 		RestTemplate rest = new RestTemplate();
 		
